@@ -1,0 +1,21 @@
+== Hello-Spring-MVC ==
+=== Description ===
+Hello World Spring MVC sample project to deploy on Cloud Foundry.
+
+=== Local run ===
+To run project local you need follow steps:
+# Clone git repository: <code>git clone git@github.com:JerzySeweryn/Hello-Spring-MVC.git</code>
+# Run Apache Tomcat: <code>mvn tomcat:run</code>
+
+=== Deploy on Cloud Foundry ===
+# Clone git repository: <code>git clone git@github.com:JerzySeweryn/Hello-Spring-MVC.git</code>
+# Install vmc Cloud Foundry CL: <code>sudo gem install vmc</code>
+# Configure vmc:
+#* <code>vmc target api.cloudfoundry.com</code>
+#* <code>vmc login</code>
+# Publish: <code>vmc push</code>
+=== Demo ===
+To see how it work please go to http://hello-spring-mvc.cloudfoundry.com/
+
+=== Contact ===
+If you have any question or proposition do not hesitate to contact me.
